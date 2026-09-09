@@ -1,5 +1,5 @@
 import UserContextProvider from './context/UserContextProvider';
-import { Login } from './pages';
+import { Login, Profile } from './pages';
 
 function App() {
 
@@ -7,6 +7,7 @@ function App() {
   return (
     <UserContextProvider>
        <Login/>
+       <Profile/>
     </UserContextProvider>
   )
 }
